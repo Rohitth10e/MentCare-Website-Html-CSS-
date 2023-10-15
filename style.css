@@ -397,18 +397,41 @@
     
     .box1{
         background-color: olivedrab;
-        width: 100vw;
+        border: 1px solid lightgray;
+        width: 40vw;
         text-align: center;
         border-radius: 15px;
         color: white;
-        margin: 24px auto;
+        margin: 24px 20px;
+        padding: 16px 0px;
+        border-radius: 1px solid lightgray;
+    }
+
+    .box2{
+        background-color: burlywood;
+        width: 40vw;
+        text-align: center;
+        border-radius: 15px;
+        color: white;
+        margin: 24px 20px;
         padding: 16px 0px;
         border: 1px solid lightgray;
     }
 
+    .box3{
+        background-color: royalblue;
+        border: 1px solid lightgray;
+        width: 40vw;
+        text-align: center;
+        border-radius: 15px;
+        color: white;
+        margin: 24px 20px;
+        padding: 16px 0px;
+    }
+
     .box1:hover{
         background-color: black;
-        width: 100vw;
+        width: 50vw;
         text-align: center;
         border-radius: 15px;
         color: white;
@@ -419,7 +442,7 @@
 
     .box2:hover{
         background-color: black;
-        width: 100vw;
+        width: 50vw;
         text-align: center;
         border-radius: 15px;
         color: white;
@@ -430,11 +453,11 @@
 
     .box3:hover{
         background-color: black;
-        width: 100vw;
+        width: 50vw;
         text-align: center;
         border-radius: 15px;
         color: white;
-        margin: 24px auto;
+        margin: 24px 20px;
         padding: 16px 0px;
         border: 1px solid lightgray;
     }
@@ -444,27 +467,6 @@
         justify-content: space-around;
     }
     
-    .box2{
-        background-color: burlywood;
-        width: 100vw;
-        text-align: center;
-        border-radius: 15px;
-        color: white;
-        margin: 24px 20px;
-        padding: 16px 0px;
-        border: 1px solid lightgray;
-    }
-    
-    .box3{
-        background-color: royalblue;
-        border: 1px solid lightgray;
-        width: 100vw;
-        text-align: center;
-        border-radius: 15px;
-        color: white;
-        margin: 24px 20px;
-        padding: 16px 0px;
-    }
     
     .section1{
         display: flex;
@@ -523,7 +525,10 @@
     .sec2-txt{
         margin-bottom: 100px;
     }
-    
+    .therapyselect{
+        display: flex;
+        flex-wrap: wrap;
+    }
     .therapy-txt{
         margin-top: 50px;
     }
@@ -583,10 +588,10 @@
     
     .mission{
         height: 63vh;
-        width: 40vw;
+        width: 50vw;
         border: 1px solid lightgray;
         border-radius: 7px;
-        margin-right: 50px;
+        /* margin-right: 50px; */
     }
     
     .mission-txt{
@@ -601,21 +606,23 @@
     }
     
     .teaminfo{
-        margin: 20px 0px;
         display: flex;
-        justify-content: space-between;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
     
     .our-team{
         display: flex;
         flex-wrap: wrap;
-        width: 50vw;
+        justify-content: space-evenly;
+        width: 120vw;
         gap: 20px;
         border: 1px solid lightgray;
         padding-top: 10px;
         padding-left: 12px;
         border-radius: 7px;
         background-color: beige;
+        margin-top: 40px;
     }
 
     .story-img{
@@ -663,4 +670,3 @@
         /* text-align: center; */
     }
 }
-
